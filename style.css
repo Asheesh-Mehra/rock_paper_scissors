@@ -1,0 +1,133 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    background-color: #bcfde8;
+}
+
+h1 {
+    background-color: #C3BEF7;
+    text-align: center;
+    height: 4rem;
+    line-height: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+.choice {
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+img:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+#reset:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+img {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text {
+    font-size: 3rem;
+    margin-top: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+#rock-text {
+    margin-left: 1.1rem;
+}
+
+#paper-text {
+    margin-left: 0.6rem;
+}
+
+#scissors-text {
+    margin-left: -1.5rem
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4.5rem;
+    gap: 6rem;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+#user-choice, #comp-choice {
+    background-color: darkslateblue;
+    color: #EFFFFA;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3.2rem;
+    gap: 6rem;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+#uresult, #cresult {
+    background-color: darkslategrey;
+    color: #EFFFFA;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+.play-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3.5rem;
+    gap: 6rem;
+    font-size: 2rem;
+}
+
+#play {
+    background-color: darkviolet;
+    color: #EFFFFA;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border-color: black;
+    margin-left: -4.85rem;
+}
+
+#reset {
+    background-color: rgb(177, 45, 45);
+    color: #EFFFFA;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border-color: black;
+}
